@@ -1,0 +1,30 @@
+/*Menu*/
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.activo){
+    background-color: #111;
+}
+
+.activo{
+    background-color: #f3fa1f;
+    color: #000;
+}
