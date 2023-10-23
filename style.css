@@ -22,8 +22,28 @@ ul{
 
  li:hover {
     background-color: #00213e;
+    
  }
 
-header{
-    padding-top: 100px;
+/*Header*/
+
+.parralax{
+    background-image:url('https://picsum.photos/id/237/200/300');
+    margin-top: 45px;
+    text-align: center;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 300px;
+    font-size: 50px;
+    color: #ffff;
+    margin-bottom: 100px;
+    
+}
+
+.parralax h1 {
+    padding-top: 50px;
 }
