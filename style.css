@@ -28,8 +28,7 @@ ul{
 /*Header*/
 
 .parralax{
-    background-image:url('https://picsum.photos/id/237/200/300');
-    margin-top: 45px;
+    margin-top: 40px;
     text-align: center;
     width: 100%;
     background-attachment: fixed;
@@ -37,13 +36,28 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-    height: 300px;
+    height: 280px;
     font-size: 50px;
-    color: #ffff;
+    color: #fff;
     margin-bottom: 100px;
-    
+    background-color: #00213e;
+}
+.parralax .col-4 img{    
+    height: 380px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+    color: transparent;
+}
+.parralax .col-8{
+    text-align: center;
 }
 
 .parralax h1 {
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
