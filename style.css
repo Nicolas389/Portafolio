@@ -44,7 +44,7 @@ ul{
 }
 .parralax .col-4 img{    
     height: 380px;
-    width: 100%;
+    width: 600px;
     left: 0;
     top: 0;
     right: 0;
@@ -60,4 +60,11 @@ ul{
     padding-top: 20px;
     padding-bottom: 20px;
     
+}
+
+/*Logos*/
+
+.logo{
+    width: 50px;
+    margin-bottom: 10px;
 }
